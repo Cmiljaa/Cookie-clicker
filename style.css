@@ -6,12 +6,22 @@
 body{
     display: flex;
     justify-content: center;
+    text-align: center;
     background: url(img/background.png);
 }
 
+body p{
+    margin-top: 80px;
+    text-transform: capitalize;
+    font-size: 45px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(240, 244, 255);
+}
+
 img{
-    margin-top: 45px;
+    margin-top: 35px;
     border-radius: 50%;
+    scale: 0.8;
     background: transparent;
 }
 
