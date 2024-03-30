@@ -35,7 +35,7 @@ ul li img{
     font-size: 17px;
     background-color: #0060ae;
     border: 2px solid #0060ae;
-    color: #c3dbef;
+    color: #ffffff;
     letter-spacing: 5px;
     text-transform: uppercase;
     transition: 0.5s ease;
@@ -56,7 +56,7 @@ ul li{
     
     background: url(img/background-mini.jpg);
     margin-top: 80px;
-    padding: 10px;
+    padding: 15px;
     border: 2px solid #2b1d12;
     color: white;
     text-transform: capitalize;
