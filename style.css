@@ -18,22 +18,45 @@ body p{
     color: rgb(240, 244, 255);
 }
 
-img{
+.cookie-section img{
+    scale: 0.9;
+}
+
+ul li img{
     margin-top: 35px;
     border-radius: 50%;
-    scale: 0.9;
     background: transparent;
 }
 
-img{
+ul li img{
     cursor: pointer;
-}
-
-ul{
-    
 }
 
 ul li{
     display: inline-block;
     list-style-type: none;
+}
+
+.legend{
+    
+    background: url(img/background-mini.jpg);
+    margin-top: 80px;
+    padding: 10px;
+    border: 2px solid #2b1d12;
+    color: white;
+    text-transform: capitalize;
+    border-radius: 18px;
+    margin-left: 35px;
+}
+
+.legend .legend-item{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.legend .legend-item img{
+    margin-right: 5px;
 }
