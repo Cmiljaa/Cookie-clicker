@@ -18,18 +18,33 @@ body p{
     color: rgb(240, 244, 255);
 }
 
-.cookie-section img{
-    scale: 0.9;
+.cookie-section #cookie{
+    scale: 0.8;
+    cursor: pointer;
 }
 
 ul li img{
-    margin-top: 35px;
+    margin: 0px 15px 35px;
     border-radius: 50%;
+    cursor: pointer;
     background: transparent;
 }
 
-ul li img{
-    cursor: pointer;
+.cookie-section button{
+    padding: 8px 63px;
+    font-size: 17px;
+    background-color: #0060ae;
+    border: 2px solid #0060ae;
+    color: #c3dbef;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    transition: 0.5s ease;
+}
+
+.cookie-section button:hover{
+    background: #55aaef;
+    color: #003c6d;
+    transition-duration: 0.5s;
 }
 
 ul li{
@@ -54,7 +69,7 @@ ul li{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin: 20px;
+    margin: 15px;
 }
 
 .legend .legend-item img{
