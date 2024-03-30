@@ -21,10 +21,19 @@ body p{
 img{
     margin-top: 35px;
     border-radius: 50%;
-    scale: 0.8;
+    scale: 0.9;
     background: transparent;
 }
 
 img{
     cursor: pointer;
+}
+
+ul{
+    
+}
+
+ul li{
+    display: inline-block;
+    list-style-type: none;
 }

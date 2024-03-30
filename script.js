@@ -10,10 +10,7 @@ cookie.addEventListener('click', () => {
     
 })
 
-cookie.addEventListener('mouseover', () => {
-    cookie.style.scale = 0.9;
-})
+cookie.addEventListener('mousedown',  () => cookie.style.scale = 0.8)
 
-cookie.addEventListener('mouseout', () => {
-    cookie.style.scale = 0.8;
-})
+cookie.addEventListener('mouseup', () => cookie.style.scale = 0.9)
+
