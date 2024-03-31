@@ -41,6 +41,8 @@ reset.addEventListener('click', () => {
 const update = (i) => {
     counter+=i;
     let title = document.querySelector('title');
+    let sound = document.querySelector('audio');
+    sound.play();
     p.innerText = `${counter} cookies`;
     title.innerText = `${counter} cookies`;
 }
